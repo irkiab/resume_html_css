@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap'); */
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 618px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+  margin-left: 20px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #838683;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: normal;
+  line-height:  1.2em;
+  background-color: #f1f1f1;
+  color: #0f141e
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.list_hoby ol {
+  padding: 0;
+  margin: 0;
+}
+
+.list_hoby li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.list_hoby li:hover {
+  background: #fbedac;
+}
+
+.job table {
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: auto;
+  width: 80%;
+}
+
+.job thead {
+  border-collapse: collapse;
+  border-bottom: 1px solid grey;
+}
+
+.job tbody {
+  border-bottom: 1px solid grey;
+}
+
+.job tbody tr:nth-child(2n) {
+  background: #fee;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.btn {
+  background: #111;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.70)
+}
+
+.btn:hover{
+  opacity: 0.8;
+  color: orange;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  /* transition: all .2s; */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: darkblue;
+}
+
+a:visited {
+  color:  orange;
+}
+
+.folowme {
+  color: grey;
+}
+
+.form-row {
+  display: flex;
+}
+
+.box {
+  width: 50%;
+}
+
+.box:last-child {
+  margin-left: 10px;
+}
+
+form label, input, textarea {
+  width: 100%; 
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  border-bottom: 1px solid gray;
+}
+
+@media (max-width: 618px) {
+  .form-row {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .box:last-child {
+    margin-left: 0px;
+  }
+  
+  .box {
+    margin-bottom: 0;
+  }
+}
+
+
+
+

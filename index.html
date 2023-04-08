@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Home Page</title>
+  <meta name="keywords" content="resume, cv" />
+  <meta name="description" content="This is my home page with me resume" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="info">
+      <img class="logo" src="imgs/face.png" alt="My Logo img">
+      <div class="info-text">
+        <h1>Иван</h1>
+        <p>Я <strong>ИТ'шник</strong>, изучаю курс <strong>HTML</strong> и <strong>CSS</strong></p>
+        <p><em>Я люблю изучать компьютернные технологии. Люблю заниматься танцами, спортом, путишествовать и вести здоровый образ жизни.</em></p>
+
+        <h4>Список социальных сетей:</h4>
+        <a href="https://google.com" target="_blank">Google</a>
+        |
+        <a href="https://vk.com" target="_blank">VK</a>
+        |
+        <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+      </div>
+    </div>
+
+    <div class="list_hoby card bg-yellow">
+      <h4>Список хобби:</h2>
+      <ol>
+        <li>Компьютеры</li>
+        <li>Спорт</li>
+        <li>Танцы</li>
+      </ol>
+    </div>
+    <div class="job card bg-red">
+      <h4>Опыт работы</h4>
+      <table >
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Чайка</td>
+            <td>Киномеханик</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <td>Сибком</td>
+            <td>Техническая поддержка</td>
+            <td>2010-2011</td>
+          </tr>
+          <tr>
+            <td>Сибком</td>
+            <td>Системный администратор</td>
+            <td>2011-2017</td>
+          </tr>
+          <tr>
+            <td>Байкал Телепорт</td>
+            <td>Ведущий специалист ИТ отдела</td>
+            <td>2017-*</td>
+          </tr>
+      </tbody>
+      </table>
+    </div>
+
+    <div class="folowme card bg-green">
+      <h2>Связаться со мной</h2>
+
+      <form action="/">
+
+        <div class="form-row">
+          <div class="box">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="" id="name" placeholder="Введите имя">
+          </div>
+
+          <div class="box">
+            <label for="email">Ваш email:</label>
+            <input type="email" name="" id="email" placeholder="Введите email">
+          </div>
+        </div>
+
+        <div class="box">
+          <label for="message">Ваше сообщение:</label>
+          <br>
+          <textarea name="" id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Отправить!</button>
+
+      </form>
+    </div>
+
+</div>
+</body>
+</html>
